@@ -1,0 +1,107 @@
+.register-form-container {
+  width: 550px;
+  padding: 20px;
+  border:4px solid #376ba0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 500px;
+  margin: 5rem auto;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 25px;
+}
+.register-form .form-group {
+  /* margin-bottom: 15px; */
+  padding: 10px;
+}
+.row {
+  display: flex;
+}
+#genderbold {
+  font-weight: bold;
+}
+.genderflex {
+  display: flex;
+}
+.radio label {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.register-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  padding-right: 5px;
+}
+.row .formgender {
+  margin-top: 15px;
+}
+.register-form .form-group input,
+.register-form .form-group textarea,
+.register-form .form-group select {
+  /* width: 100%; */
+  padding: 8px;
+  font-size: 15px;
+  /* box-sizing: border-box; */
+  border-radius: 5px;
+}
+
+.register-form .btn {
+  /* width: 100%; */
+  /* margin-left: 20rem; */
+  margin: 1rem 0 20px 13rem;
+  padding: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form .btn:hover {
+  background-color: #0056b3;
+}
+h2 {
+  text-align: center;
+  color: red;
+  margin-bottom: 25px;
+}
+.flex {
+  display: flex;
+}
+.flex p {
+  margin-right: 10px;
+}
+.flex a {
+  text-decoration: none;
+}
+.activatebtn {
+  margin-top: 25px;
+  margin-left: 11rem;
+  width: 150px;
+  /* height: 35px; */
+  padding: 10px;
+  background-color: red;
+}
+.activatebtn p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+#error {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}

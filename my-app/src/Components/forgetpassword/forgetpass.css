@@ -1,0 +1,21 @@
+#checkmail {
+  width: 120px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0 10px 8rem;
+}
+#checkmail:hover{
+    background-color: #5093db;
+}
+#error-mail {
+  color: green;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}

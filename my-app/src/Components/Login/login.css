@@ -1,0 +1,85 @@
+.container {
+  width: 400px !important;
+  padding: 20px;
+  border: 4px solid #376ba0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 5rem auto;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.form .form-div {
+  margin-bottom: 15px;
+}
+
+.form .form-div label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form .form-div input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form .btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 0 10px 8rem;
+}
+
+.form .btn:hover {
+  background-color: #0056b3;
+}
+h2 {
+  text-align: center;
+  color: red;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flex a {
+  text-decoration: none;
+}
+#loginbtn {
+  width: 90px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+#loginbtn :hover {
+  background-color: #0056b3;
+}
+#frgtpass {
+  width: 200px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+#frgtpass:hover {
+  background-color: #0056b3;
+}

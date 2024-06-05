@@ -1,0 +1,48 @@
+.container-activate {
+  background-color: rgb(194, 129, 129);
+  width: 600px;
+  height: 320px;
+  text-align: center;
+  padding: 20px;
+  margin: 5rem auto;
+  border: 4px solid #376ba0;
+}
+#activate-p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: blueviolet;
+}
+#btn-act {
+  margin-top: 20px;
+  width: 180px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+#btn-act:hover {
+  background-color: rgb(230, 62, 62);
+}
+#error {
+  margin-top: 40px;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+.passact {
+  margin-top: 25px;
+  margin-left: 13rem;
+  width: 150px;
+  /* height: 35px; */
+  padding: 10px;
+  background-color: green;
+}
+.passact p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}

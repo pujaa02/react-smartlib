@@ -1,0 +1,370 @@
+.mainarea {
+  /* height: 780px; */
+  height: 89%;
+  width: 90%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+  position: relative;
+  border-radius: 0 0 10px 0;
+  margin: 2rem auto;
+}
+
+.book_product_wrap {
+  position: relative;
+  padding: 20px 30px 2;
+}
+
+.header_product h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+
+.header_product h2 span {
+  color: #ef8361;
+}
+
+.book_product_list {
+  margin-top: 20px;
+}
+
+.accordian_list {
+  display: flex;
+  align-items: center;
+}
+
+.accordian_list .accordian_header {
+  margin-right: 50px;
+}
+
+.accordian_list .accordian_header:last-child {
+  margin-right: 0px;
+}
+
+.accordian_list .accordian_header p {
+  text-decoration: none;
+  color: #868686;
+  font-size: 16px;
+}
+
+.accordian_list .accordian_header p:hover {
+  color: #4d4d4d;
+}
+.nulldata {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+#allbooksectionpage {
+  margin-top: 30px;
+  height: 700px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+#borrowp {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 128.52%;
+  color: #d85757;
+}
+
+.product_container {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 20px -20px 0px;
+}
+
+.product_container .product-card-wrap {
+  width: calc(100% / 4);
+}
+
+.product-card-wrap {
+  padding: 20px;
+}
+
+.product-card-wrap .card-wrap {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.product-card-wrap img {
+  width: 120px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.content {
+  width: 120px;
+  margin-left: 2px;
+  margin-top: 12px;
+}
+
+.content2 {
+  margin-top: -14rem;
+  margin-left: 10rem;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Inter";
+  font-style: normal;
+  color: #4d4d4d;
+}
+
+.author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  color: #4d4d4d;
+  margin-top: -10px;
+}
+
+.rate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 128.52%;
+  color: #4d4d4d;
+  margin-top: -10px;
+}
+
+.borrow {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128.52%;
+  color: #4d4d4d;
+}
+
+.bordate {
+  margin-top: -7px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 128.52%;
+  color: #747373;
+}
+
+.submission {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128.52%;
+  margin-top: 20px;
+  color: #4d4d4d;
+}
+
+.subdate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 128.52%;
+  color: #747373;
+  margin-top: -5px;
+}
+
+.subdate span {
+  margin-left: 5px;
+  color: red;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+
+.borbtn {
+  width: 125px;
+  height: 40px;
+  background: #a0a0a0;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.borbtn #borp {
+  padding: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128.52%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.retbtn {
+  box-sizing: border-box;
+  width: 125px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #f76b56;
+  border-radius: 5px;
+}
+
+.retbtn #retp {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128.52%;
+  text-align: center;
+  color: #f76b56;
+}
+.retbtngreen {
+  box-sizing: border-box;
+  width: 125px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.retbtngreen #retpgreen {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128.52%;
+  text-align: center;
+  color: green;
+}
+/* section 2 */
+.product_container_two {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 20px -15px 30px;
+}
+
+.product_container_two .product-card-wrap-two {
+  width: calc(100% / 6);
+}
+
+.product-card-wrap-two {
+  padding: 15px;
+}
+
+.product-card-wrap-two .card-wrap {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 205px;
+}
+
+.product-card-wrap-two img {
+  width: 172px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+#remainderp {
+  margin-bottom: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 128.52%;
+  color: #d85757;
+}
+
+.contentrem {
+  margin: 10px 0;
+}
+
+.titlerem {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Inter";
+  font-style: normal;
+  color: #4d4d4d;
+}
+
+.authorrem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: #4d4d4d;
+  margin-top: -10px;
+}
+
+.raterem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 128.52%;
+  color: #4d4d4d;
+  margin-top: -10px;
+}
+
+.borrodt {
+  margin-top: -7px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 128.52%;
+  color: #747373;
+}
+
+.subdt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 128.52%;
+  color: #747373;
+  margin-top: -5px;
+}
+
+/* section 3 */
+#watchlistp {
+  margin-bottom: -10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 128.52%;
+  color: #d85757;
+}
+
+.product_container_three {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  /* margin: 20px -15px 0px; */
+}
+
+.product_container_three .product-card-wrap-two {
+  width: 233px;
+}
+.lastbtn {
+  width: 100px;
+  border: 1px solid red;
+  height: 35px;
+  /* padding: 5px 12px; */
+  background-color: rgb(228, 46, 46);
+  border-radius: 7px;
+  text-align: centerr;
+  margin-left: 40px;
+}
+.lastbtn .remove {
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #f2f2f2;
+  font-weight: bold;
+  cursor: grab;
+}
